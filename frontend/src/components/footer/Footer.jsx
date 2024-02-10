@@ -1,4 +1,5 @@
 // import logo from "../assets/triologo.jpg";
+import logo from "../../assets/triologo.jpg";
 import styles from "./Footer.module.css";
 
 const Footer = () => {

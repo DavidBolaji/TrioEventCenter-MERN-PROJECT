@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import { useState } from "react";
 import styles from "./Singup.module.css";
-import NavBar from "../../components/NavBar/NavBar";
+// import NavBar from "../../components/NavBar/NavBar";
 import { useNavigate } from "react-router-dom";
 
 const Signup = () => {

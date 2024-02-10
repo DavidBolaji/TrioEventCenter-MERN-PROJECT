@@ -1,14 +1,15 @@
-import React, { useState,  useEffect } from "react";
+import React, { useState } from "react";
 import styles from "./LoginForm.module.css";
+
+/**--------- used imports
 import NavBar from "./NavBar.jsx";
-//---------
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { FaSignInAlt } from 'react-icons/fa';
 import { login, reset } from '../store/auth/authSlice';
 import Spinner from '../components/Spinner'
-//-------------
+-------------*/
 
 const Login = () => {
   const [email, setEmail] = useState("");
